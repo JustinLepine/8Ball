@@ -5,7 +5,7 @@ userName ? console.log(`Hello ${userName}!`)
 : console.log('Hello!')
 let userQuestion = 'what time is it?'
 console.log(`${userName} ${userQuestion}`)
-const randomNumber = Math.floor(Math.random() * 8);
+const randomNumber = Math.floor(Math.random() * 10);
 let eightBall = '';
 switch (randomNumber) {
   case 0:
@@ -31,5 +31,11 @@ switch (randomNumber) {
   break;
   case 7:
   eightBall = 'Signs point to yes';
+  break;
+  case 8:
+  eightBall = 'I will be king of the pirates'
+  break;
+  case 9:
+  eightBall = 'Youll never really know'
 }
 console.log(`The eight ball answered: ${eightBall}`);
